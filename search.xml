@@ -4,19 +4,117 @@
   
     
     <entry>
-      <title>nvidia-smi报错</title>
-      <link href="/2019/12/28/nvidia-smi%E6%8A%A5%E9%94%99/"/>
-      <url>/2019/12/28/nvidia-smi%E6%8A%A5%E9%94%99/</url>
+      <title>Hello World</title>
+      <link href="/2020/03/25/hello-world/"/>
+      <url>/2020/03/25/hello-world/</url>
       
-        <content type="html"><![CDATA[<h2 id="nvidai-smi-命令报错"><a href="#nvidai-smi-命令报错" class="headerlink" title="nvidai-smi 命令报错"></a>nvidai-smi 命令报错</h2><p><em>服务器配置一览: RTX 2080ti, cuda9</em></p><h3 id="所遇问题"><a href="#所遇问题" class="headerlink" title="所遇问题"></a>所遇问题</h3><p>最近服务器不知什么原因，在查看显卡使用率的时候(nvidia-smi)报如下错误：  </p><p><img src="/2019/12/28/nvidia-smi报错/001.png" alt="问题截图"></p><p>我根据提示重启了不止一次,但重启过后还是报这个错。</p><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>vim /etc/default/grub, 在GRUB_CMDLINE_LINUX_DEFAULT 值里面添加<br>acpi=noirq(空格) thermal.off=1<br>强制保存重启</p><p>例如：GRUB_CMDLINE_LINUX_DEFAULT=”quiet splash acpi=noirq thermal.off=1”</p><h4 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h4><p>修改过后的确nvidia-smi就不报错了。但具体原理我不清楚。</p>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
       
       
       
-        <tags>
-            
-            <tag> nvidia </tag>
-            
-        </tags>
+    </entry>
+    
+    
+    
+    <entry>
+      <title>0</title>
+      <link href="/2020/03/25/0/"/>
+      <url>/2020/03/25/0/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/2020/03/25/0/timg.jpg" alt></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>789</title>
+      <link href="/2020/03/24/789/"/>
+      <url>/2020/03/24/789/</url>
+      
+        <content type="html"><![CDATA[<p><img src="/2020/03/24/789/download.jpg" alt></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>467</title>
+      <link href="/2020/03/24/467/"/>
+      <url>/2020/03/24/467/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2534506313,1688529724&fm=26&gp=0.jpg" alt></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>123</title>
+      <link href="/2020/03/24/123/"/>
+      <url>/2020/03/24/123/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>gbh</title>
+      <link href="/2020/03/24/gbh/"/>
+      <url>/2020/03/24/gbh/</url>
+      
+        <content type="html"><![CDATA[<p>搞不好还会放管服改革<br><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1035415831,1465727770&fm=26&gp=0.jpg" alt="9"></p><h2 id="本地图片"><a href="#本地图片" class="headerlink" title="本地图片"></a>本地图片</h2><p><img src="/2020/03/24/gbh/timg.jpg" alt="1"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>guo</title>
+      <link href="/2020/03/24/guo/"/>
+      <url>/2020/03/24/guo/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>name</title>
+      <link href="/2020/03/24/name/"/>
+      <url>/2020/03/24/name/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>test</title>
+      <link href="/2020/03/24/test/"/>
+      <url>/2020/03/24/test/</url>
+      
+        <content type="html"><![CDATA[<h3 id="这是作为测试用例"><a href="#这是作为测试用例" class="headerlink" title="这是作为测试用例"></a>这是作为测试用例</h3>]]></content>
+      
+      
       
     </entry>
     
@@ -36,40 +134,6 @@
             <tag> hexo </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Pytorch: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED</title>
-      <link href="/2019/12/22/Pytorch-cuDNN-error-CUDNN-STATUS-EXECUTION-FAILED/"/>
-      <url>/2019/12/22/Pytorch-cuDNN-error-CUDNN-STATUS-EXECUTION-FAILED/</url>
-      
-        <content type="html"><![CDATA[<h2 id="RuntimeError-cuDNN-error-CUDNN-STATUS-EXECUTION-FAILED"><a href="#RuntimeError-cuDNN-error-CUDNN-STATUS-EXECUTION-FAILED" class="headerlink" title="RuntimeError: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED"></a>RuntimeError: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED</h2><p><em>服务器配置一览: RTX 2080ti,cuda9</em></p><h3 id="所遇问题"><a href="#所遇问题" class="headerlink" title="所遇问题"></a>所遇问题</h3><p>在使用pytorch中预训练好的inception_v3网络跑自己实验的时候出现  </p><p><img src="/2019/12/22/Pytorch-cuDNN-error-CUDNN-STATUS-EXECUTION-FAILED/001.png" alt="问题截图"></p><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法:"></a>解决办法:</h3><p>网上常见的方法汇总:</p><ol><li><strong>重装cuda版本</strong> (RTX20180ti 与cuda9的适用性不如cuda10)</li><li><strong>torch.backends.cudnn.enabled = False</strong> (默认为ture，在调用包的后面加入即可)</li></ol><h3 id="我使用的方法"><a href="#我使用的方法" class="headerlink" title="我使用的方法"></a>我使用的方法</h3><p>比较懒，所以方法2</p><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p><strong>(摘录)</strong> 关于torch.backends.cudnn.enabled 的使用：</p><p>设置这个 flag 可以让内置的 cuDNN 的 auto-tuner 自动寻找最适合当前配置的高效算法，来达到优化运行效率的问题。</p><p>应该遵循以下准则：</p><p>如果网络的输入数据维度或类型上变化不大，置为true 可以增加运行效率；<br>如果网络的输入数据在每次 iteration 都变化的话，会导致 cnDNN 每次都会去寻找一遍最优配置，这样反而会降低运行效率。</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> pytorch </tag>
-            
-            <tag> RuntimeError </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2019/10/07/hello-world/"/>
-      <url>/2019/10/07/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     
